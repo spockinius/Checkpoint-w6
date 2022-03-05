@@ -83,4 +83,4 @@ def uploadblob(connectionstring: str, filename: str, container: str, blobname: s
 
 # Call functions here
 if __name__ == "__main__":
-    uploadblob("DefaultEndpointsProtocol=https;AccountName=katastorage01;AccountKey=9IOHn5FyJAiKdp4MqgDx1Q7iQAxeHYUzIFxY/iXEaDOga6tzi1vRpUBsUtYgcEAGo0Ue87ER2FTpPQ9bZfFMJQ==;EndpointSuffix=core.windows.net", "checkpoint.txt", "katablobtentti", "checkpoint.txt")            
+    uploadblob("DefaultEndpointsProtocol=https;AccountName=katastorage01;AccountKey=9IOHn5FyJAiKdp4MqgDx1Q7iQAxeHYUzIFxY/iXEaDOga6tzi1vRpUBsUtYgcEAGo0Ue87ER2FTpPQ9bZfFMJQ==;EndpointSuffix=core.windows.net", "testi.txt", "katablobtentti", "testi.txt")            
